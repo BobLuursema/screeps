@@ -1,0 +1,26 @@
+{
+  "name": "bobs-screeps-ai",
+  "version": "1.0.0",
+  "description": "My AI for Screeps.",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "grunt screeps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BobLuursema/screeps.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BobLuursema/screeps/issues"
+  },
+  "homepage": "https://github.com/BobLuursema/screeps#readme",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-rsync": "^3.0.0"
+  },
+  "dependencies": {
+    "grunt-screeps": "^1.4.0"
+  }
+}
